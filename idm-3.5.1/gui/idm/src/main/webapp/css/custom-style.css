@@ -1,0 +1,306 @@
+/*montserratlight*/
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../fonts/Montserrat-Light.eot');
+	src: url('../fonts/Montserrat-Light.woff') format('woff'),
+		url('../fonts/Montserrat-Light.ttf') format('truetype'),
+		url('../fonts/Montserrat-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Common*/
+body {
+	font-family: 'Montserrat-Light' !important;
+	font-weight: normal !important;
+	background-color: #EEE !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Montserrat-Light' !important;
+}
+
+/*Navigation Bar*/
+.skin-blue-light .main-header .navbar {
+	background-color: #223652 !important;
+}
+
+.main-header {
+	padding: 5px 0px 15px 0px;
+	background-color: #223652;
+}
+
+.skin-blue-light .main-header .logo {
+	background-color: #223652 !important;
+}
+
+.top-navbar {
+	background-color: #223652 !important;
+	height: 32px;
+}
+
+.top-navbar .navbar-nav>li>a {
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+	line-height: 20px !important;
+	color: #727f90 !important;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.top-navbar .object-task-color, .top-navbar .object-resource-color,
+	.top-navbar .object-user-color {
+	color: #727f90 !important;
+}
+
+.top-navbar .navbar-nav>li>a:hover i {
+	color: #FFF !important;
+}
+
+.top-navbar .navbar-nav>li.active>a:hover i {
+	color: #727f90 !important;
+}
+
+.top-navbar .navbar-nav>li>a:hover {
+	background: none !important;
+	color: #FFF !important;
+	cursor: pointer;
+}
+
+.top-navbar .navbar-nav>li.active {
+	background: #EEE !important;
+}
+
+.top-navbar .navbar-nav>li.active a {
+	color: #727f90 !important;
+}
+
+.top-navbar .dropdown-menu>.active>a {
+	background: none !important;
+}
+
+/*Breadcrumb*/
+.navbar-custom-menu ol.breadcrumb li a {
+	color: #727f90 !important;
+	font-size: 11px !important;
+}
+
+.navbar-custom-menu ol.breadcrumb li:last-child a {
+	color: #DDD !important;
+}
+/*Content Section*/
+.content-wrapper, .right-side {
+	background-color: #EEE !important;
+}
+
+.content-wrapper, .right-side, .main-footer {
+	margin-left: 0px !important;
+}
+
+.skin-blue-light .content-wrapper, .skin-blue-light .main-footer {
+	border: none !important;
+}
+
+/*Dropdown style*/
+.top-navbar .dropdown-menu {
+	border-color: #223652 !important;
+	background-color: #223652 !important;
+}
+
+.top-navbar .dropdown-menu>li {
+	border-bottom: 1px dotted #5e718c !important;
+	font-size: 13px;
+}
+
+.top-navbar .dropdown-menu>li:last-child {
+	border: none !important;
+}
+
+.top-navbar .dropdown-menu>li>a {
+	color: #DDD !important;
+	padding: 3px 15px 3px 10px !important
+}
+
+.top-navbar .dropdown-menu>li>a:hover {
+	color: #FFF !important;
+	background: none !important;
+}
+
+.top-navbar .navbar-nav .fa.pull-right {
+	top: 3px !important;
+	position: relative !important;
+}
+
+.top-navbar .nav .open>a {
+	background: none !important;
+}
+
+/*Dropdown Submenu Multilevel*/
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+	margin-left: -1px;
+	border-radius: 0px !important;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-submenu>a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #ccc;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+	float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	border-radius: 0px !important;
+}
+
+/*Footer*/
+.main-footer {
+	background: #e5e2e2 !important;
+	color: #717171 !important;
+	font-size: 11px !important;
+	padding: 10px !important;
+	text-align: right;
+}
+
+/*Login Page*/
+.login-con {
+	margin-bottom: 0px !important;
+	max-width: 340px !important;
+	width: 100% !important;
+	height: auto !important;
+	overflow: hidden;
+	margin: 0 auto !important;
+	position: relative !important;
+	background: #223652 !important;
+	padding: 40px;
+	border-top: 5px solid #33b5e5;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	color: #FFF !important;
+	top: 100px;
+}
+
+.login-con h2 {
+	color: #33b5e5 !important;
+	margin: 0px 0px 15px 0px !important;
+	font-size: 18px !important;
+	font-weight: inherit !important;
+	text-align: left !important;
+	border-left: 3px solid #577580;
+	padding-left: 7px;
+}
+
+.login-con label {
+	width: 100% !important;
+	max-width: 100% !important;
+	color: #CCC !important;
+	text-align: left !important;
+	font-size: 12px !important;
+	text-transform: uppercase !important;
+	margin: 2px 0px !important;
+}
+
+.login-con input[type="text"], .login-con input[type="password"] {
+	outline: none !important;
+	display: block;
+	width: 100% !important;
+	max-width: 100% !important;
+	border: 1px solid #d9d9d9;
+	margin: 0 0 5px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background: #FFF !important;
+	color: #000;
+}
+
+.login-con button {
+	cursor: pointer;
+	background: #33b5e5;
+	width: 100%;
+	border: 0;
+	padding: 10px 15px !important;
+	color: #ffffff;
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
+	margin: 10px 0px;
+	text-transform: uppercase !important;
+}
+
+.login-con a {
+	color: #F92;
+	text-decoration: none;
+}
+
+.login-con small {
+	font-size: 10px;
+	font-weight: 100;
+	font-family: arial;
+	color: #899db9;
+	margin: 3px 0px;
+	text-align: center;
+}
+
+.login-con #BackBtn {
+	position: absolute;
+	top: -26px;
+	left: -20px;
+}
+
+/*Tabs Style*/
+.nav-tabs-custom>.nav-tabs>li.active {
+	border-top-color: #143d79 !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active a {
+	color: #143d79 !important;
+}
+
+.nav-tabs-custom>.nav-tabs>li>a {
+	color: #BCBCBC !important;
+}
+
+.btn-primary {
+	background-color: #223652 !important;
+	border-color: #25426b !important;
+}
+
+.btn-primary:hover {
+	background-color: #1e477f !important;
+	border-color: #163a6c !important;
+}
+
+.btn-info {
+	background-color: #5777a5 !important;
+	border-color: #546986 !important;
+}
+
+.btn-info:hover {
+	background-color: #446da9 !important;
+	border-color: #355686 !important;
+}
