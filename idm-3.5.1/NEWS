@@ -1,0 +1,40 @@
+midPoint 3.5 "Einstein" Update 1
+----------------------------------
+
+Release 3.5.1 is a twentieth midPoint release. It is the fist maintenance
+update for 3.5.x version family code-named Einstein. The Einstein release
+family brings lots of features related to identity governance, 
+self-registration and support for JSON/YAML. This maintenance update brings
+number of smaller improvements, fixes and stability enhancements.
+
+Release date: 9th April 2017
+
+Changes with respect to version 3.4.1:
+    Role catalog
+    Role request based on shopping cart paradigm
+    JSON/YAML support
+    Object lifecycle property
+    Passive Attribute Caching (EXPERIMENTAL)
+    Deputy (ad-hoc privilege delegation)
+    Object history (time machine)
+    Interactive audit log viewer
+    Audit log indexing improvements
+    Assignment metadata
+    Basic role lifecycle management (role approvals)
+    Improved approval processes
+    Self-registration
+    E-mail based password reset
+    Experimental support for policy rules
+    Weak construction
+    Improvements to AD connector in multi-domain environment
+    Identity merge
+    Better control over administration GUI forms
+    MariaDB support
+    Configurable limitations of parallel execution of tasks
+    Various user interface improvements
+    Internal code cleanup
+    Documentation improvements
+
+Java 7 environment is no longer supported.
+XPath2 scripting is no longer supported.
+CSVFile Connector is deprecated.
